@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>My Big Brother Vishal 💙</title>
+
+<style>
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: white;
+    background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+}
+
+.card {
+    max-width: 400px;
+    padding: 30px 22px;
+    border-radius: 25px;
+    background: rgba(255,255,255,0.10);
+    box-shadow: 0 10px 35px #0005;
+}
+
+.heart {
+    font-size: 65px;
+    animation: beat 1s infinite;
+}
+
+@keyframes beat {
+    50% { transform: scale(1.15); }
+}
+
+h1 { color: #ffd166; }
+
+p {
+    line-height: 1.8;
+    font-size: 16px;
+}
+
+button {
+    background: #ffd166;
+    color: #203a43;
+    border: none;
+    padding: 14px 22px;
+    border-radius: 25px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#letter {
+    display: none;
+    margin-top: 22px;
+    animation: appear 1s ease;
+}
+
+@keyframes appear {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+footer {
+    margin-top: 22px;
+    color: #ffd166;
+}
+</style>
+</head>
+
+<body>
+<div class="card">
+
+    <div class="heart">💙</div>
+
+    <h1>My Big Brother Vishal 👑</h1>
+
+    <h3>My First Hero, My Forever Support 🫂</h3>
+
+    <p>
+        No matter how old I grow,
+        I will always be your little sister. ❤️
+    </p>
+
+    <button onclick="openLetter()">
+        A Message For You 💌
+    </button>
+
+    <div id="letter">
+        <h2>Dear Dada ❤️</h2>
+
+        <p>
+            Vishal Dada, you are more than just
+            my big brother. You are someone
+            I will always look up to.
+        </p>
+
+        <p>
+            Thank you for being a part of my life.
+            Even when we fight or don't express
+            our feelings, you will always have
+            a special place in my heart.
+        </p>
+
+        <p>
+            I might not say it every day,
+            but I am truly lucky to have you
+            as my big brother. 🥹💙
+        </p>
+
+        <p>
+            No matter what life brings,
+            I will always be your little sister.
+        </p>
+
+        <h2>I Love You, Dada! 🫂💙</h2>
+        <h3>Vaishnavi ❤️ Vishal</h3>
+        <div style="font-size:32px">♾️💙👑</div>
+    </div>
+
+    <footer>
+        Made with all my love by Vaishnavi 💗
+    </footer>
+
+</div>
+
+<script>
+function openLetter() {
+    document.getElementById("letter").style.display = "block";
+}
+</script>
+
+</body>
+</html>
+
